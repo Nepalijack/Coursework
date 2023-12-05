@@ -2,21 +2,22 @@ package com.example.coursework.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.coursework.R;
 import com.example.coursework.models.HomeHorModel;
 import com.example.coursework.models.HomeVerModel;
 
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class HomeHorAdapter extends RecyclerView.Adapter<HomeHorAdapter.ViewHolder> {
 

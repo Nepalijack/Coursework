@@ -22,4 +22,16 @@
     <style name="Theme.Coursework.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Coursework.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <!-- Base application theme. -->
+    <style name="Base.Theme.Coursework" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="BottomSheetTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@string/BottomSheetStyle</item>
+    </style>
+
+    <string name="BottomSheetStyle" parent = "Widget.Design.BottomSheet.Model">
+        <item name="android:backgrund" >@android:color/transparent</item>
+    </string>
 </resources>
